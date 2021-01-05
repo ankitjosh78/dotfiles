@@ -48,6 +48,7 @@ fi
 
 nitrogen --restore &
 picom &
+slstatus &
 while :; do
 	ssh-agent dwm
 done
