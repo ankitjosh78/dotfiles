@@ -15,6 +15,11 @@ alias dwmconf='nvim ~/dwm/config.def.h'
 alias cst="cd ~/st"
 alias stconf="nvim ~/st/config.def.h"
 alias ncp='nvim ~/Documents/cp.cc +10'
+alias getdwm='git clone https://github.com/ankitjosh78/dwm.git'
+alias getst='git clone https://github.com/ankitjosh78/st.git'
+alias mk='make'
+alias rmconf='rm config.h'
+alias mkinstall='sudo make clean install'
 alias nconf='nvim ~/.config/nvim/init.vim'
 alias update='sudo pacman -Syu'
 
