@@ -1,0 +1,55 @@
+font:
+  # The size to use.
+  size: 11.5
+  # The normal (roman) font face to use.
+  normal:
+    family: JetBrains Mono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Medium
+
+  # The bold font face
+  bold:
+    family: JetBrains Mono 
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: JetBrains Mono 
+    # Style can be specified to pick a specific face.
+    style: Bold Italic
+  
+  offset:
+    x: -1
+    y: 0
+
+
+# Colors (Monokai Dark)
+colors:
+    primary:
+      background: '0x272822'
+      foreground: '0xF8F8F2'
+    normal:
+     black:   '0x272822'
+     red:     '0xF92672'
+     green:   '0xA6E22E'
+     yellow:  '0xF4BF75'
+     blue:    '0x66D9EF'
+     magenta: '0xAE81FF'
+     cyan:    '0xA1EFE4'
+     white:   '0xF8F8F2'
+    bright:
+     black:   '0x75715E'
+     red:     '0xF92672'
+     green:   '0xA6E22E'
+     yellow:  '0xF4BF75'
+     blue:    '0x66D9EF'
+     magenta: '0xAE81FF'
+     cyan:    '0xA1EFE4'
+     white:   '0xF9F8F5'
+
+background_opacity: 1.0
+
+#Key bindings
+key_bindings:
+  - { key: Return,        mods: Control|Shift,    action: SpawnNewInstance   }
