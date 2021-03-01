@@ -41,10 +41,9 @@ fi
 
 nitrogen --restore & # wallpaper restored
 picom --experimental-backends --xrender-sync-fence & # compositor
-dwmblocks &
+/home/ankit/dwm-bar/dwm_bar.sh & #dwm bar
+volumeicon & #volumeicon
 while :; do
-	volumeicon & # volumeicon
-    ssh-agent dwm	#running dwm in an infinite loop
-    dwmblocks & # date and time
+	ssh-agent dwm
+    volumeicon & #volumeicon
 done
-

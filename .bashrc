@@ -3,10 +3,9 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-[[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx --vt1
 
 # Aliases
-alias ls='exa -l'
+alias ls='exa'
 alias lsa='exa -la'
 alias l='exa -l'
 alias vim='nvim'
@@ -42,7 +41,6 @@ bind 'set completion-ignore-case on'
 #neofetch
 #ufetch
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
+#export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=nvim
-/opt/shell-color-scripts/colorscripts/crunchbang-mini
 eval "$(starship init bash)"
