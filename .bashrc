@@ -16,6 +16,7 @@ alias nzsh='nvim ~/.zshrc'
 alias nxi='nvim ~/.xinitrc'
 alias cdwm='cd ~/dwm'
 alias dwmconf='nvim ~/dwm/config.def.h'
+alias cdmenu='cd ~/dmenu'
 alias cst="cd ~/st"
 alias stconf="nvim ~/st/config.def.h"
 alias ncp='nvim ~/Documents/cp.cc +11'
@@ -31,6 +32,8 @@ alias nfish='vim ~/.config/fish/config.fish'
 alias piconf='vim ~/.config/picom.conf'
 alias dunstrc='vim ~/.config/dunst/dunstrc'
 alias alaconf='vim ~/.config/alacritty/alacritty.yml'
+alias cp='cp -iv'
+alias mv='mv -iv'
 
 PS1='[\u@\h \W]\$ '
 
