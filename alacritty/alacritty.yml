@@ -1,0 +1,86 @@
+font:
+  # The size to use.
+  size: 11.5
+  normal:
+    family: JetBrains Mono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Medium
+
+  # The bold font face
+  bold:
+    family: JetBrains Mono Nerd Font 
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: JetBrains Mono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Bold Italic
+  
+  offset:
+    x: 0
+    y: 0
+
+background_opacity: 0.8
+#background_opacity: 1.0
+
+#Key bindings
+key_bindings:
+  - { key: Return,        mods: Control|Shift,    action: SpawnNewInstance   }
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xebdbb2'
+
+  # Normal colors
+  normal:
+    black:   '0x282828'
+    red:     '0xcc241d'
+    green:   '0x98971a'
+    yellow:  '0xd79921'
+    blue:    '0x458588'
+    magenta: '0xb16286'
+    cyan:    '0x689d6a'
+    white:   '0xa89984'
+
+  # Bright colors
+  bright:
+    black:   '0x928374'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xebdbb2'
+# BEGIN ACE
+colors:
+  primary:
+    background: '#0E0413'
+    foreground: '#f4ddf1'
+  cursor:
+    text:       '#0E0413'
+    cursor:     '#f4ddf1'
+  normal:
+    black:      '#0E0413'
+    red:        '#B15DCF'
+    green:      '#A257DD'
+    yellow:     '#DD9EBC'
+    blue:       '#E5A3EB'
+    magenta:    '#FDCCD9'
+    cyan:       '#FFE3DD'
+    white:      '#f4ddf1'
+  bright:
+    black:      '#aa9aa8'
+    red:        '#B15DCF'
+    green:      '#A257DD'
+    yellow:     '#DD9EBC'
+    blue:       '#E5A3EB'
+    magenta:    '#FDCCD9'
+    cyan:       '#FFE3DD'
+    white:      '#f4ddf1'
+# END ACE
