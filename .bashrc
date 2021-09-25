@@ -27,7 +27,6 @@ alias cdmenu='cd ~/dmenu'
 alias cst="cd ~/st"
 alias stconf="nvim ~/st/config.def.h"
 alias ncp='nvim ~/Documents/cp.cc +11'
->>>>>>> f74dcb769b0b0cb2bb935a42c4f662f5892152e9
 alias getdwm='git clone https://github.com/ankitjosh78/dwm.git'
 alias getst='git clone https://github.com/ankitjosh78/st.git'
 alias mk='make'
