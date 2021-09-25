@@ -1,0 +1,58 @@
+font:
+  # The size to use.
+  size: 11.5
+  # The normal (roman) font face to use.
+  normal:
+    family: JetBrains Mono Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Medium
+
+  # The bold font face
+  bold:
+    family: JetBrains Mono Nerd Font 
+    family: JetBrains Mono 
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: JetBrains Mono Nerd Font
+    family: JetBrains Mono 
+    # Style can be specified to pick a specific face.
+    style: Bold Italic
+  
+  offset:
+    x: 0
+    y: 0
+
+background_opacity: 0.8
+#background_opacity: 1.0
+
+#Key bindings
+key_bindings:
+  - { key: Return,        mods: Control|Shift,    action: SpawnNewInstance   }
+colors:
+  primary:
+    background: '#0E0413'
+    foreground: '#f4ddf1'
+  cursor:
+    text:       '#0E0413'
+    cursor:     '#f4ddf1'
+  normal:
+    black:      '#0E0413'
+    red:        '#B15DCF'
+    green:      '#A257DD'
+    yellow:     '#DD9EBC'
+    blue:       '#E5A3EB'
+    magenta:    '#FDCCD9'
+    cyan:       '#FFE3DD'
+    white:      '#f4ddf1'
+  bright:
+    black:      '#aa9aa8'
+    red:        '#B15DCF'
+    green:      '#A257DD'
+    yellow:     '#DD9EBC'
+    blue:       '#E5A3EB'
+    magenta:    '#FDCCD9'
+    cyan:       '#FFE3DD'
+    white:      '#f4ddf1'
