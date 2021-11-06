@@ -1,28 +1,28 @@
 font:
   # The size to use.
-  size: 11.5
+  size: 15
   # The normal (roman) font face to use.
   normal:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font
     # Style can be specified to pick a specific face.
-    style: Medium
+    style: Regular
 
   # The bold font face
   bold:
-    family: JetBrains Mono
-    family: JetBrains Mono 
+    family: JetBrainsMono Nerd Font
+    family: JetBrainsMono Nerd Font
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: JetBrains Mono
-    family: JetBrains Mono 
+    family: JetBrainsMono Nerd Font
+    family: JetBrainsMono Nerd Font
     # Style can be specified to pick a specific face.
-    style: Bold Italic
+    style: Italic
   
   offset:
-    x: 0
+    x: -1
     y: 0
 
 background_opacity: 0.8
@@ -56,30 +56,3 @@ colors:
     magenta:    '#FDCCD9'
     cyan:       '#FFE3DD'
     white:      '#f4ddf1'
-# BEGIN ACE
-colors:
-  primary:
-    background: '#0a050c'
-    foreground: '#c1bed0'
-  cursor:
-    text:       '#0a050c'
-    cursor:     '#c1bed0'
-  normal:
-    black:      '#0a050c'
-    red:        '#9B3C55'
-    green:      '#5E3F98'
-    yellow:     '#6B5B9C'
-    blue:       '#9C4BAD'
-    magenta:    '#8D6CA1'
-    cyan:       '#7B8AB8'
-    white:      '#c1bed0'
-  bright:
-    black:      '#878591'
-    red:        '#9B3C55'
-    green:      '#5E3F98'
-    yellow:     '#6B5B9C'
-    blue:       '#9C4BAD'
-    magenta:    '#8D6CA1'
-    cyan:       '#7B8AB8'
-    white:      '#c1bed0'
-# END ACE
