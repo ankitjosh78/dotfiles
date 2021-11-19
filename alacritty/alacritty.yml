@@ -1,6 +1,10 @@
 font:
   # The size to use.
+<<<<<<< HEAD
   size: 14
+=======
+  size: 15
+>>>>>>> 659e24cf49a57c87e553c956731e52fbc4f3c048
   # The normal (roman) font face to use.
   normal:
     family: JetBrainsMono Nerd Font
@@ -51,6 +55,7 @@ colors:
 
   # Bright colors
   bright:
+<<<<<<< HEAD
     black:   '0x686868'
     red:     '0xF07178'
     green:   '0xC2D94C'
@@ -59,3 +64,13 @@ colors:
     magenta: '0xFFEE99'
     cyan:    '0x95E6CB'
     white:   '0xFFFFFF'
+=======
+    black:      '#aa9aa8'
+    red:        '#B15DCF'
+    green:      '#A257DD'
+    yellow:     '#DD9EBC'
+    blue:       '#E5A3EB'
+    magenta:    '#FDCCD9'
+    cyan:       '#FFE3DD'
+    white:      '#f4ddf1'
+>>>>>>> 659e24cf49a57c87e553c956731e52fbc4f3c048
