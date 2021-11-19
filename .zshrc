@@ -1,14 +1,6 @@
 #Ankit Josh (https://github.com/ankitjosh78)
 # ~/.zshrc
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-# History in cache directory:
-HISTSIZE=10000
-HISTFILE='~/.cache/zsh/history'
-SAVEHIST=10000
-
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -61,10 +53,11 @@ alias alaconf='nvim ~/.config/alacritty/alacritty.yml'
 alias nf='neofetch'
 alias mv='mv -iv'
 alias cp='cp -iv'
-alias dev='cd ~/Documents/ && nvim'
+alias dev='cd ~/Documents/projects'
 alias ra='ranger'
 alias urls='grep -o "https\?://\S*\.[A-Za-z]*\S*"'
 alias mails='grep -o "[a-z]*\S*@\S\+\.\S\+"'
+alias python='python3'
 alias hang='cd ~/Documents/hang-movie-man/'
 PS1='[\u@\h \W]\$ '
 
@@ -83,9 +76,6 @@ fcd(){
     cd "$(find -type d | fzf)"
 }
 
-open(){
-    xdg-open "$(find -type f | fzf)"
-}
 #pfetch
 
 #cat ~/.cache/wal/sequences &
@@ -96,4 +86,3 @@ open(){
 #fi
 #source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null 
 eval "$(starship init zsh)"
-#cat ~/.cache/wal/sequences
