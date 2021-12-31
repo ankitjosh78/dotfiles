@@ -34,8 +34,8 @@ alias cst="cd ~/.local/share/st"
 alias cdmenu='cd ~/.local/share/dmenu'
 alias cdwmblocks='cd ~/.local/share/dwmblocks/'
 alias stconf="nvim ~/.local/share/st/config.h"
-alias ncp='cd ~/Documents/cp/ && nvim cp.cpp +11'
-alias getdwm='git clone https://github.com/ankitjosh78/dwm.git ~/.local/share/dwm/'
+alias ncp='cd ~/Documents/cp/ && nvim cp.cpp'
+aias getdwm='git clone https://github.com/ankitjosh78/dwm.git ~/.local/share/dwm/'
 alias getst='git clone https://github.com/ankitjosh78/st.git ~/.local/share/st/'
 alias getdmenu='git clone https://github.com/ankitjosh78/dmenu.git ~/.local/share/dmenu/'
 alias getdwmblocks='git clone https://github.com/ankitjosh78/dwmblocks.git ~/.local/share/'
@@ -58,7 +58,8 @@ alias ra='ranger'
 alias urls='grep -o "https\?://\S*\.[A-Za-z]*\S*"'
 alias mails='grep -o "[a-z]*\S*@\S\+\.\S\+"'
 alias python='python3'
-alias hang='cd ~/Documents/hang-movie-man/'
+alias hang='cd ~/Documents/projects/hang-movie-man/'
+alias cat='bat'
 PS1='[\u@\h \W]\$ '
 
 
@@ -71,11 +72,22 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export EDITOR=nvim
 export TERMINAL=alacritty
+export PATH=$PATH:~/.android-sdk-macosx/platform-tools/
+export BAT_THEME="gruvbox-dark"
 
 fcd(){
-    cd "$(find -type d | fzf)"
+    cd "$(find . -type d | fzf)"
 }
 
+fedit(){
+    file=$(fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}')
+    if [ -z "$file" ]
+    then
+        echo "" > /dev/null
+    else
+        $EDITOR $file
+    fi
+}
 #pfetch
 
 #cat ~/.cache/wal/sequences &
@@ -85,4 +97,4 @@ fcd(){
 #    tmux attach -t default || tmux new -s default
 #fi
 #source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh > /dev/null 
-eval "$(starship init zsh)"
+eval "$(starship init zsh)"l
