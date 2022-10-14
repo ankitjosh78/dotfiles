@@ -1,0 +1,42 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+[username]
+style_user = "red bold"
+style_root = "black bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format =  "@ [$hostname](bold red) "
+trim_at = ".local"
+disabled = false
+
+
+[python]
+# Only use the `python3` binary to get the version.
+python_binary = "python3"
+
+[time]
+disabled = false
+format = '🕙[ $time ]($style) '
+time_format = "%T"
+
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[[battery.display]] # "bold red" style and discharging_symbol when capacity is between 0% and 10%
+threshold = 10
+style = "bold red"
+
+[[battery.display]] # "bold yellow" style and 💦 symbol when capacity is between 10% and 30%
+threshold = 30
+style = "bold yellow"
+discharging_symbol = "💦"
